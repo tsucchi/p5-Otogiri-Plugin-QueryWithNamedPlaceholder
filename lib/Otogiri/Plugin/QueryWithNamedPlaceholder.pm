@@ -73,7 +73,9 @@ inflate and deflate are NOT call-backed.
 
 =head1 SEE ALSO
 
-L<Otogiri> L<SQL::NamedPlaceholder>
+=item L<Otogiri>
+
+=item L<SQL::NamedPlaceholder>
 
 =head1 LICENSE
 

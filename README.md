@@ -43,7 +43,8 @@ inflate and deflate are NOT call-backed.
 
 # SEE ALSO
 
-[Otogiri](http://search.cpan.org/perldoc?Otogiri) [SQL::NamedPlaceholder](http://search.cpan.org/perldoc?SQL::NamedPlaceholder)
+- [Otogiri](http://search.cpan.org/perldoc?Otogiri)
+- [SQL::NamedPlaceholder](http://search.cpan.org/perldoc?SQL::NamedPlaceholder)
 
 # LICENSE
 
