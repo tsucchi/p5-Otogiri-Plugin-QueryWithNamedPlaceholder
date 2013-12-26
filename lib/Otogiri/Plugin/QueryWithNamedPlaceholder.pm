@@ -31,7 +31,7 @@ __END__
 
 =head1 NAME
 
-Otogiri::Plugin::QueryWithNamedPlaceholder - Plugin for Otogiri ...
+Otogiri::Plugin::QueryWithNamedPlaceholder - Plugin for Otogiri which enables to use query with named placeholder
 
 =head1 SYNOPSIS
 

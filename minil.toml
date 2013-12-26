@@ -1,2 +1,2 @@
-name = "Otogiri-Plugin"
+name = "Otogiri-Plugin-QueryWithNamedPlaceholder"
 badges = ["travis", "coveralls"]

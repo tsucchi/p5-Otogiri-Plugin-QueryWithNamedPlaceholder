@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Plugin for Otogiri which enables to use query with named placeholder",
    "author" : [
-      "Takuya Tsuchida <takuya.tsuchida@gmail.com>"
+      "Takuya Tsuchida <tsucchi@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v0.11.0, CPAN::Meta::Converter version 2.132830",
@@ -43,15 +43,29 @@
       },
       "runtime" : {
          "requires" : {
+            "Otogiri" : "0",
+            "Otogiri::Plugin" : "0",
+            "SQL::NamedPlaceholder" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tsucchi/p5-Otogiri-Plugin-QueryWithNamedPlaceholder/issues"
+      },
+      "homepage" : "https://github.com/tsucchi/p5-Otogiri-Plugin-QueryWithNamedPlaceholder",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tsucchi/p5-Otogiri-Plugin-QueryWithNamedPlaceholder.git",
+         "web" : "https://github.com/tsucchi/p5-Otogiri-Plugin-QueryWithNamedPlaceholder"
+      }
+   },
    "version" : "0.01"
 }
