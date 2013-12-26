@@ -13,7 +13,7 @@ Otogiri::Plugin::QueryWithNamedPlaceholder - Plugin for Otogiri which enables to
 
 # DESCRIPTION
 
-Otogiri::Plugin::QueryWithNamedPlaceholder is plugin for [Otogiri](http://search.cpan.org/perldoc?Otogiri). This module provides two methods, `search_named` and `do_named`
+Otogiri::Plugin::QueryWithNamedPlaceholder is plugin for [Otogiri](https://metacpan.org/pod/Otogiri). This module provides two methods, `search_named` and `do_named`
 
 # METHODS
 
@@ -43,8 +43,8 @@ inflate and deflate are NOT call-backed.
 
 # SEE ALSO
 
-- [Otogiri](http://search.cpan.org/perldoc?Otogiri)
-- [SQL::NamedPlaceholder](http://search.cpan.org/perldoc?SQL::NamedPlaceholder)
+- [Otogiri](https://metacpan.org/pod/Otogiri)
+- [SQL::NamedPlaceholder](https://metacpan.org/pod/SQL::NamedPlaceholder)
 
 # LICENSE
 
