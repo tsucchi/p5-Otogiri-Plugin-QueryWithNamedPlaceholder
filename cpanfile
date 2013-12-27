@@ -1,4 +1,4 @@
-requires 'Otogiri';
+requires 'Otogiri', '0.04';
 requires 'Otogiri::Plugin';
 requires 'SQL::NamedPlaceholder';
 requires 'perl', '5.008005';
