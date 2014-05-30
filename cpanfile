@@ -1,5 +1,5 @@
-requires 'Otogiri', '0.04';
-requires 'Otogiri::Plugin';
+requires 'Otogiri', '0.11';
+requires 'Otogiri::Plugin', '0.02';
 requires 'SQL::NamedPlaceholder';
 requires 'perl', '5.008005';
 
@@ -11,4 +11,5 @@ on configure => sub {
 
 on test => sub {
     requires 'Test::More';
+    requires 'DBD::SQLite';
 };

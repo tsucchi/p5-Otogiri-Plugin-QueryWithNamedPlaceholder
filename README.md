@@ -56,3 +56,15 @@ it under the same terms as Perl itself.
 # AUTHOR
 
 Takuya Tsuchida <tsucchi@cpan.org>
+
+# POD ERRORS
+
+Hey! **The above document had some coding errors, which are explained below:**
+
+- Around line 76:
+
+    '=item' outside of any '=over'
+
+- Around line 80:
+
+    You forgot a '=back' before '=head1'

@@ -13,7 +13,7 @@ our @EXPORT = qw(search_named do_named);
 
 sub search_named {
     my ($self, $sql, $params_href, $table_name) = @_;
-    $params_href = $self->_deflate_param($table_name, $params_href);
+    #$params_href = $self->_deflate_param($table_name, $params_href);
     my ($new_sql, $binds_aref) = SQL::NamedPlaceholder::bind_named($sql, $params_href);
     return $self->search_by_sql($new_sql, $binds_aref, $table_name);
 }

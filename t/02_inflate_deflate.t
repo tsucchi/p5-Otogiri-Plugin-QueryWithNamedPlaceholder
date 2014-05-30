@@ -50,9 +50,9 @@ EOF
     is( $rows[0]->{id},   $id );
     is( $rows[0]->{data}, 'aaa' );
     is( $inflate_called, 1 );
-    is( $deflate_called, 1 );
+    is( $deflate_called, 0 );
     is( $inflate_table, 'test_data' );
-    is( $deflate_table, 'test_data' );
+    is( $deflate_table, undef );
 };
 
 
